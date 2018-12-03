@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>TEXT</title>
+	</head>
+	<style>
+	    .users-wrapper{
+	    	display: flex;
+	    	flex-wrap: wrap;
+	    }
+		.user{
+			width: 250px;
+			height: 250px;
+			margin: 10px;
+			background-color: silver;
+		}
+	</style>
+	<body>
+		<button id="get-users">Get Users</button>
+		<button id="save-users">Save Users</button>
+		<form class= "creat-user"> 
+				<input placeholder="І'я" id="name" />
+				<br />
+				<input placeholder="Phone" id="phone" />
+				<br />
+				<input placeholder="Email" id="email" />
+				<br />
+				<button id="creat-user-button">Створити</button>
+			</form>
+		<div class="users-wrapper">
+
+		</div>
+		<script src="ajax2.js"></script>
+	</body>
+</html>
